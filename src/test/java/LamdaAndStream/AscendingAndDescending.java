@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 public class AscendingAndDescending {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(5, 2, 8, 1, 3);
-
         List<Integer> ascending = numbers.stream()
                 .sorted()
                 .collect(Collectors.toList());
